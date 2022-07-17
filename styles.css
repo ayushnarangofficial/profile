@@ -52,6 +52,9 @@ a {
   margin-left: 50%
 
 }
+.footer-link:hover {
+color: #30e3cb;
+}
 .QLP {
   width: 50%;
   position: absolute;
