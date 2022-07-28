@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
 text-align: center;
 font-family: 'merriweather', serif;
@@ -21,7 +22,14 @@ h3 {
   font-family: 'montserrat', sans-serif;
 }
 a {
+  display: inline-block;
   color: #11999E;
+  margin: 10px 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+a:hover {
+  color: #fff;
 }
 .my-pic {
   margin: 100px 0 0;
@@ -37,36 +45,19 @@ a {
   margin: 20px 0;
 }
 .skills {
-  position: relative;
+
   padding-top: 30px;
 }
-.skill-left {
-  width: 50%;
-  margin-top: 30px;
-}
+
 .CP {
  color: #EAF6F6;
 }
-.skill-right {
-  width: 50%;
-  margin-left: 50%
 
-}
-.footer-link:hover {
-color: #30e3cb;
-}
 .QLP {
-  width: 50%;
-  position: absolute;
-  right: 12%;
-  top: 23%;
   font-size: 120%;
 }
 .LCP {
-  width: 50%;
-  position: absolute;
-  left: 12%;
-  bottom: 12%;
+
   font-size: 120%;
 
 }
@@ -85,10 +76,13 @@ hr {
   left: 52%;
 }
 .top {
-position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   background-color: #E4F9F5;
 
+}
+.three {
+  background-color: #E4F9F5;
+  padding: 10px 0;
 }
 .profile {
   padding-bottom: 30px;
@@ -98,6 +92,7 @@ position: relative;
 .contact-me {
   padding: 10px 0;
 }
+
 .Feel {
   font-size: 20px;
   margin-top: 20px;
@@ -110,19 +105,20 @@ position: relative;
 }
 .bottom {
   background-color: #66BFBF;
-  padding: 15px 0;
+  padding: 20px 0 5px;
   margin-top: 20px;
 }
 .cloud1 {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+position: relative;
+left: 25%;
+
 }
 .cloud2 {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-
+position: relative;
+bottom: 30%;
+}
+.mountain {
+  position: relative;
 }
 .btn {
   background: #11cdd4;
