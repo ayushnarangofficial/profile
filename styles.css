@@ -108,18 +108,46 @@ hr {
   padding: 20px 0 5px;
   margin-top: 20px;
 }
-.cloud1 {
+.cloud {
 position: relative;
-left: 25%;
+left: 35%;
 
 }
-.cloud2 {
-position: relative;
-bottom: 30%;
+
+.cloud1 {
+position: absolute;
+left: 10%;
 }
+@media (max-width: 1024px) {
 .mountain {
-  position: relative;
+  width: 400px;
 }
+h1 {
+  font-size: 30px;
+}
+.pos {
+  font-size: 20px;
+}
+.cloud {
+  width: 120px;
+}
+.cloud1 {
+  left: 20px;
+  bottom: 230px;
+  width: 120px;
+}
+.my-pic {
+  margin-top: 30px;
+}
+.profile {
+  padding-bottom: 0;
+}
+.hello {
+  font-size: 15px;
+  color: #8f8f8f;
+}
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
