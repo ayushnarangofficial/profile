@@ -118,6 +118,7 @@ left: 35%;
 position: absolute;
 left: 10%;
 }
+
 @media (max-width: 1024px) {
 .mountain {
   width: 400px;
@@ -133,7 +134,7 @@ h1 {
 }
 .cloud1 {
   left: 20px;
-  bottom: 230px;
+  top: 150px;
   width: 120px;
 }
 .my-pic {
