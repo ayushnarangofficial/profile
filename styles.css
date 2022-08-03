@@ -119,7 +119,7 @@ position: absolute;
 left: 10%;
 }
 
-@media (min-width: 1px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 0px) {
 .mountain {
   width: 400px;
 }
