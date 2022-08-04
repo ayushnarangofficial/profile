@@ -119,23 +119,47 @@ position: absolute;
 left: 10%;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 0px) {
+
+
+@media (max-width: 615px) {
+  .mountain{
+  width: 100%;
+  height: auto;
+
+  }
+  .cloud {
+    width: auto;
+    height: auto;
+  }
+  .cloud1 {
+    left: 10px;
+    width: auto;
+    height: auto;
+  }
+  
+}
+
+
+
+
+/* @media (max-width:740px) and (min-width: 650px)  {
+
 .mountain {
-  width: 400px;
+  width: 500px;
 }
 h1 {
-  font-size: 30px;
+  font-size: 50px;
 }
 .pos {
-  font-size: 20px;
+  font-size: 30px;
 }
 .cloud {
-  width: 120px;
+  width: 140px;
 }
 .cloud1 {
-  left: 20px;
+  left: 70px;
   top: 150px;
-  width: 120px;
+  width: 140px;
 }
 .my-pic {
   margin-top: 30px;
@@ -148,6 +172,16 @@ h1 {
   color: #8f8f8f;
 }
 }
+
+@media (max-width:649px) {
+
+.cloud {
+  left: 10px;
+  top: 150px;
+}
+
+
+} */
 
 .btn {
   background: #11cdd4;
